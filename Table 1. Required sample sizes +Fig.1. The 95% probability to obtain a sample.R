@@ -295,7 +295,7 @@ CONF.prop <- function(alpha, x = NULL,
   }
 }
 
-# Function to calculate adjusted n with formula population size
+# Function to calculate the adjusted sample size based on the population size
 adjust_sample_size <- function(n, population_size) {
   if (!is.na(n)) { # Modified this line
     n <- as.numeric(n) # Added this line
