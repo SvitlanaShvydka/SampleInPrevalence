@@ -1,23 +1,9 @@
----
-title: "Fig 4 with host pop data"
-output: html_document
----
-
-
+# Load necessary packages
 library(ggplot2)
 library(dplyr)
 library(RColorBrewer)
 library(patchwork)
 library(tidyr)
-
-
-
-library(ggplot2)
-library(dplyr)
-library(RColorBrewer)
-library(patchwork)
-library(tidyr)
-
 
 # Empirical data on the prevalence of Echinococcus multilocularis in red foxes from eight regions in Slovakia were accumulated over 5 years (2000, 2001, 2002, 2005/2006, and 2007), as reported by Miterpáková and Dubinský (2011) DOI: 10.2478/s11687-011-0023-5
 empirical_data <- data.frame(
